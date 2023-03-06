@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/kevnjunge/reservations/pkg/config"
-	"github.com/kevnjunge/reservations/pkg/handlers"
-	"github.com/kevnjunge/reservations/pkg/render"
+	"github.com/kevnjunge/reservations/internal/config"
+	"github.com/kevnjunge/reservations/internal/handlers"
+	"github.com/kevnjunge/reservations/internal/render"
 	"log"
 	"net/http"
 	"time"

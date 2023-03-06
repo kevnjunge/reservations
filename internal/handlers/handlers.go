@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kevnjunge/reservations/pkg/config"
-	"github.com/kevnjunge/reservations/pkg/models"
-	"github.com/kevnjunge/reservations/pkg/render"
+	"github.com/kevnjunge/reservations/internal/config"
+	"github.com/kevnjunge/reservations/internal/models"
+	"github.com/kevnjunge/reservations/internal/render"
 )
 
 // Repo the repository used by the handlers

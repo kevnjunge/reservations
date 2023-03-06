@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kevnjunge/reservations/pkg/config"
-	"github.com/kevnjunge/reservations/pkg/handlers"
+	"github.com/kevnjunge/reservations/internal/config"
+	"github.com/kevnjunge/reservations/internal/handlers"
 	"net/http"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
